@@ -66,7 +66,7 @@ namespace DeathStarAnimation
             player.Play();
             while (pixels <= 300) //Draws the explosion
             {
-                
+                 
                 g.FillEllipse(boomBrush1, 113 - pixels / 2, 250 - pixels / 2, 400 + pixels, 400 + pixels);
                 g.FillEllipse(boomBrush2, 135 - pixels / 2, 280 - pixels / 2, 360 + pixels, 360 + pixels);
                 g.FillEllipse(boomBrush3, 157 - pixels / 2, 310 - pixels / 2, 310 + pixels, 310 + pixels);
